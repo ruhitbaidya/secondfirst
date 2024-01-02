@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.headerpart{
+    height: 500px;
+    background-image: url("./image/ruhit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+.inside-part{
+    height: 100%;
+    background-color: rgba(68, 62, 62, 0.719);
+}
+.content{
+    text-align: center;
+    color:azure;
+    padding: 200px 0;
+}
+.content h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content button{
+    background-color: transparent;
+    color:azure;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 2px solid azure;
+    border-radius: 2px;
+}
+.content button:hover{
+    background-color: azure;
+    color:black;
+    transition: 0.5s;
+}
+.about-part{
+    padding: 100px 0;
+}
+.about-part h2{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.border{
+margin-top: 10px;
+  width:120px;
+  height:5px;
+  margin: 0 auto;
+  background-color: rgb(26, 158, 211);
+}
+.about-part p{
+    text-align: justify;
+    padding: 10px 50px;
+    font-size: 18px;
+}
+.ancore{
+    padding: 10px 20px;
+    width:200px;
+    display:block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.ancore:hover{
+    background-color: aqua;
+    color:aliceblue;
+    border-color: aliceblue;
+    transition: 0.5s;
+}
+.contact{
+    padding : 20px 50px;
+}
+label{
+    display: block;
+    width : 100px;
+    margin : 0 auto;
+}
+input{
+    width: 500px;
+    margin: 10px auto;
+    display: block;
+}
